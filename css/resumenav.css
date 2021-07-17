@@ -1,0 +1,36 @@
+.resumenav{
+    display:flex;
+    flex-direction:column;
+    width:200px;
+    background-color: rgba(60,100,177 ,0.06);
+}
+
+.resumenav img{
+    max-width:100px;
+    margin:10px 0px;
+    margin-left: auto;
+
+}
+
+.resumenavlinks{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: #484f51;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.resumenavlinks a{
+    width:200px;
+    margin: 20px;
+    margin-left: 100%;
+    text-align: left;
+    text-decoration:none;
+    color:black;
+ }

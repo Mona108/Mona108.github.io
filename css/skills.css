@@ -1,0 +1,40 @@
+.skills{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.skillcard{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding:10px 20px;
+    max-width: 200px;
+
+}
+.skillcard img{
+    height: 150px;
+    object-fit: scale-down;
+
+}
+.skillcardheader{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #3C64b1;
+    padding:2px;
+    padding-top: 10px;
+
+}
+
+.skillcardbody{
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #737b7d;
+    padding:2px;
+    padding-top: 10px;
+}
